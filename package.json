@@ -1,0 +1,35 @@
+{
+  "name": "shop-admin",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/integrations": "^13.0.0",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "element-plus": "^2.9.7",
+    "express": "^5.1.0",
+    "pinia": "^3.0.2",
+    "ssh2": "^1.16.0",
+    "universal-cookie": "^7.2.2",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.7",
+    "vite-plugin-windicss": "^1.8.4",
+    "windicss": "^3.5.1"
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
