@@ -1,7 +1,3 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+项目主要是基于KVM+QEMU和OVS技术实现的，前端采用html+css+vue创建界面和设计界面样式，后端使用JavaScript进行实现，实现在分布式系统中虚拟局域网的划分，从而实现虚拟机之间的通信与隔离。
+主要工作:
+使用KVM和QEMU技术创建多个嵌套虚拟机，在每个宿主机上分别通过OVS创建一个网桥，两个物理机上的网桥通过GRE隧道相连，给不同的嵌套虚拟机打上tag，实现处于同一局域网中的嵌套虚拟机可以通信，处于不同局域网中的虚拟机无法进行通信，为网络的隔离与连通提供了新的思路。
